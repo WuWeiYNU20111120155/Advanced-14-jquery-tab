@@ -1,0 +1,66 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#jewelry-container {
+    width: 200px;
+}
+
+.jewelry-sub {
+    position: relative;
+    background: rgb(200, 28, 19);
+    padding:  10px 10px 10px 20px;
+    border-bottom: 1px dotted rgb(223,36,38);
+    cursor: pointer; 
+}
+
+/* .jewelry-details {
+    position: absolute;
+    width: 200px;
+    left: 200px;
+    top: 0;
+    display: flex;
+    flex-wrap:  wrap;
+    border: 1px solid #ccc;
+    display: none;
+} */
+.jewelry-details {
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    border: 1px solid #ccc;
+    display: none;
+}
+.jewelry-sub>span{
+  float: right;
+  color: white;
+}
+
+/* .jewelry-details>li{
+  flex: 50px  1 ;
+  color: rgb(100,100,100);
+  padding: 10px  20px;
+} */
+.jewelry-details>li{
+  float: left;
+  width: 30%;
+  color: rgb(100,100,100);
+  padding: 10px  20px;
+}
+.hover>ul {
+  display: block;
+}
